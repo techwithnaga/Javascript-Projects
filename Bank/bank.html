@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank</title>
+</head>
+<h1> Welcome to Naga Bank </h1>
+<div id="loginDiv">
+    <p> Please enter your username and password :</p>
+    <p>username : </p>
+    <input id="username" type="text">
+    <p>password : </p>
+    <input id="password" type="text">
+    <br />
+    <br />
+    <button onclick="login()">Login</button>
+</div>
+<div id="actionDiv" style="display: none;">
+    <h4>Current Balance : <span id="balance"> </span></h4>
+    <h3>Withdraw</h3>
+    <input id="withdrawAmount" type="text" placeholder="amount">
+    <button onclick="withdraw()">withdraw</button>
+    <h3>Deposit </h3>
+    <input id="depositAmount" type="text" placeholder="amount">
+    <button onclick="deposit()">deposit</button>
+</div>
+<script type="text/javascript" src="bank.js"></script>
+</body>
+
+</html>

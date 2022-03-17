@@ -1,0 +1,49 @@
+body {
+  background-color: bisque;
+}
+.wrapper {
+  width: 350px;
+  background-color: #f2f2f2;
+  padding-bottom: 10px;
+  border: 1px solid black;
+  border-radius: 15px;
+  margin: auto;
+}
+
+#headerText {
+  text-align: center;
+}
+
+.header {
+  color: white;
+  background-color: #330080;
+  padding: 5px;
+  border-radius: 10px 10px 0 0;
+}
+
+.body {
+  padding-left: 20px;
+}
+
+.calculateBtn {
+  text-align: center;
+}
+#calculate {
+  padding: 20px;
+  color: white;
+  background-color: red;
+}
+
+#percent {
+  padding: 20px;
+}
+
+#calculate:hover {
+  background-color: #b30000;
+  cursor: pointer;
+}
+
+#result {
+  text-align: center;
+  display: none;
+}
