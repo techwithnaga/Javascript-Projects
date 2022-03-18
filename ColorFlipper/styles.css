@@ -1,0 +1,13 @@
+body {
+  background-color: #f1f5f8;
+}
+
+#main {
+  padding-top: 5em;
+}
+
+#backgroundTxt {
+  background-color: black;
+  color: white;
+  border-radius: 0.2em;
+}

@@ -5,14 +5,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.css" rel="stylesheet" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.js"></script>
+    <link rel="stylesheet" href="counter.css">
     <title>Counter</title>
 </head>
 
 <body>
-    <h1>Counter</h1>
-    <button onclick="countUp()">count up</button>
-    <p id="count">Count : 0</p>
-    <button onclick="countDown()">count down</button>
+    <div class="col-md-6 offset-md-3 text-center" id="main">
+        <h1>Counter</h1>
+        <br>
+        <h1 id="count"> 0</h1>
+        <br>
+        <div class="btn-group" role="group">
+            <button type="button" class="btn btn-dark" id="decreaseBtn">Decrease</button>
+            <button type="button" class="btn btn-dark" id="resetBtn">Reset</button>
+            <button type="button" class="btn btn-dark" id="increaseBtn">Increase</button>
+        </div>
+
+    </div>
 
     <script type="text/javascript" src="counter.js"></script>
 </body>
